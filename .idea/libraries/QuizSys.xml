@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="QuizSys">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../QuizSys/out/production/QuizSys" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

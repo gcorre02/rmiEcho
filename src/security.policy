@@ -3,5 +3,8 @@
 grant{
     permission java.net.SocketPermission "127.0.0.1:*", "accept,connect";
     permission java.net.SocketPermission "192.168.0.1:*", "accept,connect";
+    permission java.net.SocketPermission "192.168.1.1:*", "accept,connect";
+    permission java.net.SocketPermission "192.168.1.73:*", "accept,connect";
+    permission java.net.SocketPermission "192.168.1.75:*", "accept,connect";
     //permission java.net.SocketPermission "192.168.0.22:*", "accept,connect"; setup the other computer's ip here
 };

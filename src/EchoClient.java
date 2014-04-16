@@ -11,7 +11,7 @@ public class EchoClient {
     public static void main(String[] args) {
         Remote service = null;
         try {
-            service = Naming.lookup("//192.168.1.75:1099/echo");
+            service = Naming.lookup("//192.168.1.75:1099/echo");//for host computer needs to be 127.0.0.1
         } catch (NotBoundException e) {
             e.printStackTrace();
         } catch (MalformedURLException e) {

@@ -14,4 +14,6 @@ public interface EchoService extends Remote {
      * @return the same string passed as parameter
      */
     public String echo(String s) throws RemoteException;
+
+    public String run() throws RemoteException;
 }

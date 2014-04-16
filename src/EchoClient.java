@@ -35,7 +35,7 @@ public class EchoClient {
         String input = ui.readFromUser();
         try {
             while(!input.equals("close")){
-                System.out.println(echoService.echo(input));
+                System.out.println(echoService.run());
                 input = ui.readFromUser();
             }
         } catch (RemoteException e) {
